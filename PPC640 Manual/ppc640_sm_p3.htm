@@ -1,0 +1,128 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>PPC640 Service Manual</title>
+</head>
+
+<body>
+
+<p align="center"><font face="Arial" size="2"><b>FD-5 MAINTENANCE AND ALIGNMENT INFORMATION<br>
+(FOR INFORMATION PURPOSES ONLY)</b></font></p>
+
+<p align="center">&nbsp;</p>
+<p align="left"><font face="Arial" size="2"><b>1 .OUTLINE OF MAINTENANCE</b></font></p>
+<blockquote>
+  <p align="left"><font face="Arial" size="2">• The following tools are required for maintenance of a Floppy Disk Drive</font></p>
+</blockquote>
+<p align="left"><font face="Arial" size="2"><b>1.1  Alignment Diskettes</b></font></p>
+<blockquote>
+  <p align="left"><font face="Arial" size="2">Alignment diskette is used for head actuator alignment and index sensor alignment. Use the JU-01AA - DD and
+  817-363CE.</font></p>
+</blockquote>
+<p align="left"><font face="Arial" size="2"><b>1.2  Exerciser</b></font></p>
+<blockquote>
+  <p align="left"><font face="Arial" size="2">The exerciser enables you to make all adjustments and inspections necessary for an FDD. Its functions include the<br>
+  following:<br>
+  (1) Seek increment or alternate tracks<br>
+  (2) Read (but no data compare)<br>
+  (3) Write 1 F or 2F (All 0's or 1 's)<br>
+  (4) Recalibration to track 00
+  <blockquote>
+  <p>The exerciser has switches and indicators to execute a specified function.</p>
+  </blockquote>
+</blockquote>
+
+  <br>
+  <b>
+  2. DIAGNOSTIC PROCEDURES</b>
+  <p><b>
+  2.1 Error Symptom Recognition</b></p>
+  <blockquote>
+    <p>
+  Errors that occur because of the wrong operating procedure, wrong programming, or use of a defective diskette, or soft errors
+    due to external causes, such as contaminated air and random electrical noise, are often attributed to a drive failure.
+    Unless a visual inspection of the drive reveals an evident assembly fault or a defect,
+    <b> always confirm errors with another good diskette, and another known good
+    drive</b>.</p>
+  </blockquote>
+  <p><b>
+  2.2  Soft Error Detection and Correction</b></p>
+  <blockquote>
+    <p>
+  Soft errors are normally caused by the following:<br>
+  (1 ) Contamination between read/write heads and diskette. This kind of contamination can be easily eliminated by the liner in
+    the diskette. Contaminated heads can be cleaned by a general purpose non-abrasive head cleaning diskette. Please follow the
+    suitable procedure provided with the cleaning diskette.<br>
+  (2) Random electrical noise, normally a few microseconds or less.<br>
+  (3) Small defects in written data and/or track not detected during write operation may cause soft errors during
+    read.<br>
+  (4) Faulty grounding of the drive or host system can also cause a soft error.<br>
+  (5) Wrong motor speed is another cause of soft errors.<br>
+  Take the following steps on the controller side to recover from the soft errors mentioned
+    above.<br>
+  (1) Read the track again ten times or until the data is recovered.<br>
+  (2) If Step (1) above fails to recover the data, access the adjacent track. Then return the head to the original track.<br>
+  (3) Repeat Step (1 ).<br>
+  (4) Any error that cannot be corrected by the above procedure is irrecoverable.<br>
+    </p>
+  </blockquote>
+  <p><b>
+  2.3  Write Error</b></p>
+  <blockquote>
+    <p>
+  If an error occurs during write operation, it is usually detected during the next revolution by performing a read operation called
+    write check. To correct an error, write again and repeat a write check operation. If the result is unsatisfactory after ten or more
+    write operations, perform a read operation on another track to determine whether it is the diskette or the drive that is
+    wrong.
+  If an error persists, replace the diskette and repeat the above procedure. If the error still persists, consider the drive defective. If
+  the error is corrected, dispose of the diskette as defective.</p>
+  </blockquote>
+  <p><b>
+  2.4 Read Error</b></p>
+  <blockquote>
+    <p>
+  Most read errors are soft errors. Data can be recovered by following the recovery procedure mentioned in 2.2.</p>
+  </blockquote>
+  <p><b>
+  2.5  Seek Error</b></p>
+  <blockquote>
+    <p>
+  (1) Stepper motor or stepper motor circuit drive is faulty.<br>
+  (2) Faulty Carriage&nbsp;<br>
+    There are two ways of seek error recovery. One is to recalibrate to track 00, and seek back to the original track. The other is to
+    read the ID field, check the track number on which the head is located, and move the head away from it. And read it
+    again.</p>
+  </blockquote>
+  <p><b>
+  2.6  Interchangeability Error</b></p>
+  <blockquote>
+    <p>
+  Data which is written by one drive may not be read by another. This error is called an Interchangeability error, which can be<br>
+  caused mostly by the following reason, which should be checked as follows.<br>
+  <br>
+  (1) Head misalignment: Refer to Adjustments and Confirmation Item 5.5<br>
+  (2) Head output too low: Refer to Adjustments and Confirmation Item 5.3<br>
+  (3) Motor speed difference: Refer to Adjustments and Confirmation Item 5.1<br>
+    (4) Format difference<br>
+  <br>
+  </font></p>
+</blockquote>
+<p align="right"><font face="Arial" size="2">3</font></p>
+
+<table border="0" width="100%">
+  <tr>
+    <td width="25%"><font face="Arial" size="2"><a href="file:///C:/Inetpub/wwwroot/tix/Manuali/ppc640_sm/ppc640_sm_p4.htm">NEXT
+      PAGE</a></font></td>
+    <td width="25%"><font face="Arial" size="2"><a href="file:///C:/Inetpub/wwwroot/tix/Manuali/ppc640_sm/ppc640_sm_p2.htm">PREVIOUS
+      PAGE</a></font></td>
+    <td width="25%"><font face="Arial" size="2"><a href="file:///C:/Inetpub/wwwroot/tix/Manuali/ppc640_sm/index.htm">INDEX</a></font></td>
+    <td width="25%"><font face="Arial" size="2"><a href="file:///C:/Inetpub/wwwroot/tix/index.htm" target="_top">HOME</a></font></td>
+  </tr>
+</table>
+
+</body>
+
+</html>
