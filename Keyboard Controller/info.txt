@@ -1,0 +1,23 @@
+Quick and dirty how to use the Soarer Firmware code.
+
+Create your matrix map, with a .sc extension
+
+scas file.sc file.scb
+	This assembles the map to be ready to be loaded to the Teensy++ 2.0
+
+https://www.pjrc.com/teensy/loader.html
+	Grab the appropriate loader from here
+
+Run the loader, select the correct firmware from the Soarer Firmware/firmware directory. For the Teensy++, this is the at90usb1286.hex firmware. Upload that to the Teensy.
+
+From the command line, run  scinfo. This should return a line that says:
+scinfo: looking for Soarer's Converter: found
+
+If you see that, you're good so far. Next, you need to do:
+
+scwr file.scb 
+	This will upload the key matrix you created.
+
+If you need to change the matrix, reassemble as above in the first step, and use scwr to push the updated matrix to the Teensy.
+
+If for whatever reason you need to reflash the controller firmware, use scboot to get the Teensy out of HID mode and back into bootloader mode. Rebooting the Teeny will flip it back to HID mode.

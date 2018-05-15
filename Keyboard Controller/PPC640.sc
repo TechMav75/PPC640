@@ -1,0 +1,25 @@
+# Drezzer's matrix config for the Amstrad PPC640
+
+led caps -PD0
+led scroll -PD1
+led num -PD2
+
+matrix
+	scanrate 1
+	debounce 5
+	sense		PF7		PF6		PF5		PF4		PF3		PF2		PF1		PF0
+	strobe PB0	LCTRL		LSHIFT		CAPS_LOCK	TAB		1		BACK_QUOTE	F1		ESC
+	strobe PB1	EUROPE_2	Z		A		Q		W		2		3		F2
+	strobe PB2	S		X		D		LALT		E		4		F4		F3
+	strobe PB3	V		C		G		F		T		R		5		F5
+	strobe PB4	N		B		H		U		Y		7		6		F6
+	strobe PB5	SPACE		COMMA		M		J		K		I		8		F7
+	strobe PB6	PERIOD		SEMICOLON	L		P		O		0		9		F8
+	strobe PB7	RALT		SLASH		QUOTE		RIGHT_BRACE	LEFT_BRACE	EQUAL		MINUS		F9
+	strobe PC0	RCTRL		LEFT		RSHIFT		EUROPE_1	ENTER		UNASSIGNED	F11		F10
+	strobe PC1	UNASSIGNED	DOWN		UP		DELETE		INSERT		BACKSPACE	PRINTSCREEN	F12
+	strobe PC2	PAD_0		RIGHT		PAGE_DOWN	END		PAGE_UP		HOME		PAUSE		SCROLL_LOCK
+	strobe PC3	PAD_2		PAD_1		PAD_5		PAD_4		PAD_8		PAD_7		PAD_SLASH	NUM_LOCK
+	strobe PC4	PAD_PERIOD	PAD_ENTER	PAD_3		PAD_6		PAD_PLUS	PAD_9		PAD_MINUS	PAD_ASTERIX
+end
+
