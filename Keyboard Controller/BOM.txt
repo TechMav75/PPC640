@@ -1,0 +1,5 @@
+Part			Part Number		QTY	DigiKey Part #
+14pin Trio Mate Conn	6-520315-4		2	6-520315-4-ND
+270ohm 0805 Resistor	CRG0805F270R		3	A126355CT-ND
+
+Teensy++ 2.0
